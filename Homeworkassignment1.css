@@ -17,7 +17,7 @@
     text-align: center;
   }
 
-  div {
+  .nav {
       padding-top: 10px;
       background-color: white;
       color: grey;
@@ -55,6 +55,6 @@
     color: grey;
     height: 75px;
   }
-  .clearfix:after {
+  /* .clearfix:after {
     content: ""
-  }
+  } */
