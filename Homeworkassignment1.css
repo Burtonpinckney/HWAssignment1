@@ -38,6 +38,31 @@
       height: 250px;
       padding: 10px;
   }
+
+    #article {
+      position: relative;
+      overflow: auto;
+      clear: both;
+      background-color: grey;
+      height: 50px;
+      width: 150px;
+      color: white;
+    }
+
+    #article #h1 {
+      position: absolute;
+      background-color: white;
+      height: 20px;
+      width: 130px;
+      color: grey;
+    }
+
+    #article #p {
+      background-color: white;
+      height: 20px;
+      width: 130px;
+      color: grey;
+    }
   
   #right {
       background-color: white;
