@@ -39,28 +39,30 @@
       padding: 10px;
   }
 
-    #article {
-      position: relative;
-      overflow: auto;
+    article {
+      position: relative; 
       clear: both;
       background-color: grey;
-      height: 50px;
-      width: 150px;
+      height: 150px;
+      width: 100%;
       color: white;
     }
 
-    #article #h1 {
+    article #h1 {
       position: absolute;
       background-color: white;
-      height: 20px;
-      width: 130px;
+      margin: 10px;
+      height: 35px;
+      width: 96%;
       color: grey;
+      text-align: auto;
     }
 
-    #article #p {
+    article #p {
       background-color: white;
-      height: 20px;
-      width: 130px;
+      height: 35px;
+      margin: 80px 10px 10px 10px;
+      width: 96%;
       color: grey;
     }
   
