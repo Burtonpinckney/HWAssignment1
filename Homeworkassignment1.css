@@ -55,9 +55,11 @@
       height: 35px;
       width: 96%;
       color: grey;
-      text-align: auto;
+      text-align: center;
     }
-
+    .space{
+      margin-top: 5px
+    }
     article #p {
       background-color: white;
       height: 35px;
